@@ -14,7 +14,7 @@
                             Mau Kemana Hari Ini?
                         </h1>
                         <p>Jelajahi peninggalan sejarah di Jakarta.</p>
-                        <button type="button">Cek</btn>
+                        <button type="button">Lihat Yuk!</btn>
                     </div>
                     <div class="pict1">
                         <img src="{{asset('images/museum.jpg')}}" class="pict1">
@@ -55,10 +55,11 @@
 
     <section class="container  part2">
         <div class="judul">
-            <h3>
+            <h1>
                 Bingung mau kemana?
-            </h3>
-            <h2>Tenang aja, yuk travel dengan merachy</h2>
+            </h1>
+            <h3>Jangan khawatir! Ayo travel bersama Merachy!</h3>
+            <br>
             <p>Pilih kategori yang menarik untuk kamu lihat</p>
         <div class="container">
             <div class="row align-items-start kategori">
@@ -94,7 +95,7 @@
                         <!-- link to checkout -->
                         <a href="./checkout.html">  selengkapnya
                            <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
-                        <p>Rp35.000</p>
+                        <p class="tulisan">Rp35.000</p>
                     </div>
                     </div>
                 </div>
@@ -108,8 +109,8 @@
                         </h5>
                     <div class="detail-text">
                         <a href="#">  selengkapnya
-                           <img src="{{asset('images/mbloc1.jpg" width="18px"> </a>
-                        <p>Free</p>
+                           <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
+                        <p class="tulisan">Free</p>
                     </div>
                     </div>
                 </div>
@@ -123,8 +124,8 @@
                         </h5>
                     <div class="detail-text">
                         <a href="#">  selengkapnya
-                           <img src="{{asset('images/mbloc1.jpg" width="18px"> </a>
-                        <p>Rp9S.000</p>
+                           <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
+                        <p class="tulisan">Rp9S.000</p>
                     </div>
                     </div>
                 </div>
@@ -134,12 +135,12 @@
                     </div>
                     <div class="detail">
                         <h5>
-                            TMII
+                            Taman Mini Indonesia Indah
                         </h5>
                     <div class="detail-text">
                         <a href="#">  selengkapnya
-                           <img src="{{asset('images/mbloc1.jpg" width="18px"> </a>
-                        <p>Rp10.000</p>
+                           <img src="{{asset('images/arrow.png')}}" width="18px"> </a>
+                        <p class="tulisan">Rp10.000</p>
                     </div>
                     </div>
                 </div>
